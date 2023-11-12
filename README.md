@@ -5,13 +5,13 @@ Firmware para fileteado múltiple de botellas
 . Si ponemos un filamento en el sensor y esta en la temperatura adecuada, encenderá el motor
 
 Debe tener siguientes librerias
-#include <AccelStepper.h>
-#include <thermistor.h>
-#include <TimerOne.h>
-#include <TimerThree.h>
-#include <QuickPID.h>
-#include <LiquidCrystal_I2C.h> // Librería para controlar el LCD
-#include <LiquidMenu.h>
-#include <EEPROM.h>
+./ AccelStepper.h 
+./ thermistor.h
+./ TimerOne.h
+./ TimerThree.h
+./ QuickPID.h
+./ LiquidCrystal_I2C.h
+./ LiquidMenu.h
+./ EEPROM.h
 
-Si usas platformio en el fichero de configuracion estan con el nombre del autor
+Si usas platformio en el fichero de Platform.ini estan con el nombre del autor
